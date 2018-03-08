@@ -14,6 +14,17 @@ function cropValue(value, lower, upper) {
   return Math.max(Math.min(value, upper), lower);
 }
 
+// Example on Redux-loop command
+// case 'INIT':
+//   return loop(
+//     { ...state, showLoading: true },
+//     Cmd.run(fetch, {
+//       successActionCreator: fetchSuccessfulAction,
+//       failActionCreator: fFetchFailedAction,
+//       args: []
+//     })
+//   );
+
 export default function(state = defaultState, action) {
   console.log(state, action);
   switch (action.type) {

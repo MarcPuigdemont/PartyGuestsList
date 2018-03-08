@@ -6,7 +6,7 @@ import { createStore, compose, applyMiddleware } from 'redux';
 import { Route } from 'react-router';
 import { BrowserRouter, Switch, Link } from 'react-router-dom';
 //import thunk from 'redux-thunk';
-import promise from 'redux-promise';
+//import promise from 'redux-promise';
 import createLogger from 'redux-logger';
 import allReducers from './reducers';
 import PartyListManager from './containers/PartyListManager';
@@ -34,7 +34,7 @@ const rrfConfig = {
 initializeFirebase();
 
 const logger = createLogger();
-const enhancer = compose(applyMiddleware(promise, logger), install());
+const enhancer = compose(applyMiddleware(logger), install());
 
 // Add reactReduxFirebase enhancer when making store creator
 const createStoreWithFirebase = compose(

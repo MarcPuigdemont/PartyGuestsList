@@ -1,33 +1,42 @@
-![](http://i.imgur.com/DUiL9yn.png)
+# Party Guests List
 
-# React/Sass/Redux Boilerplate
+Simple app created with React - Redux - Firebase
 
-Boilerplate and guide for a React/Sass/Redux build.
-
-## Getting Started
+## Get started
 
 To get started, first install all the necessary dependencies.
+
 ```
 > npm install
 ```
 
 Run an initial webpack build
+
 ```
 > webpack
 ```
 
 Start the development server (changes will now update live in browser)
+
 ```
-> npm run start
+> npm start
 ```
 
 To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 
-## Links
+## The idea
 
-- [Donate](https://www.patreon.com/thenewboston)
-- [thenewboston.com](https://thenewboston.com/)
-- [Facebook](https://www.facebook.com/TheNewBoston-464114846956315/)
-- [Twitter](https://twitter.com/bucky_roberts)
-- [Google+](https://plus.google.com/+BuckyRoberts)
-- [reddit](https://www.reddit.com/r/thenewboston/)
+_This is a personal project with no intentions on using on anything besides learning React / Redux and other useful things. Everything is expected to change_ **a lot**.
+
+The idea behind this project is to be able to create lists of guests who can enter your party, and each of them will be able to bring friends. So you'll know the total amount of people coming to your party.
+
+For future parties, you can use the same guests, and (on the future) you'll be able to generate statistics.
+
+## Technology used
+
+* React
+* React Router
+* Redux
+* Redux Loop
+* React Redux Firebase
+* Bootstrap (only for minor style, using CSS Grid)
