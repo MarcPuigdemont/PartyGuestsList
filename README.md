@@ -40,3 +40,8 @@ For future parties, you can use the same guests, and (on the future) you'll be a
 * Redux Loop
 * React Redux Firebase
 * Bootstrap (only for minor style, using CSS Grid)
+
+
+# Releases
+
+First release is an unfinished one. Second will be too, maybe.
